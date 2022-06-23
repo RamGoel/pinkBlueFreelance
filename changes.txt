@@ -1,0 +1,18 @@
+1. Show one age bucket selected by default ALL
+3. convet buttons to the round edges
+4. Show taken On date view for the card (how it will look)
+5. In videos show duration
+9.In Mobile view alignment for the thumbnail and content is broken
+11.In the mobile view, for the vaccination content, opening other card, either on clicking show more  Open the pop-up or expand the card for th econtent
+12. Vaccinatino only one card open at the time first on open(both webview and mobileview)
+7. Arc design of background in the header missing/design looks broken(images webview "Banner-bg" mobileview "22222")
+2. Alignment in the card for Due date is breaking
+8.In the mobile view for vaccinaion content on the header, Pointers are misising (Read more button not working)
+6. Open Pop-up for Video player in the video section
+10.Show any indication for the age buckets in the mobile view.(left and right )
+
+
+
+
+
+
