@@ -289,7 +289,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker1" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(1,this.value)" class=" datepicks d-none ">
+                                             onchange="pasteDate(1,this.value)" class=" datepicks ">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker1">Edit
                                              Status</label>
                                        </button>
@@ -298,7 +298,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseOne" aria-expanded="false"
-                                       aria-controls="flush-collapseOne" onclick="this.firstElementChild.classList.toggle('iconRotatedRev')">
+                                       aria-controls="flush-collapseOne"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotatedRev')">
                                        <i class="fa fa-angle-down text-white fa-2x row-icon " id="dropperIcon1"></i>
                                     </div>
                                  </div>
@@ -502,7 +503,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker2" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(2,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(2,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker2">Edit
                                              Status</label>
                                        </button>
@@ -511,7 +512,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseTwo" aria-expanded="false"
-                                       aria-controls="flush-collapseTwo" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseTwo"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon2"></i>
                                     </div>
                                  </div>
@@ -713,7 +715,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker3" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(3,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(3,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker3">Edit
                                              Status</label>
                                        </button>
@@ -722,7 +724,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseThree" aria-expanded="false"
-                                       aria-controls="flush-collapseThree" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseThree"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon3"></i>
                                     </div>
                                  </div>
@@ -929,7 +932,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker4" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(4,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(4,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker4">Edit
                                              Status</label>
                                        </button>
@@ -938,7 +941,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseFour" aria-expanded="false"
-                                       aria-controls="flush-collapseFour" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseFour"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon4"></i>
                                     </div>
                                  </div>
@@ -1170,18 +1174,20 @@
                                     </div>
                                     <div class="card-btn d-flex">
                                        <button
-                                          class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker5" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(5,this.value)" class="datepicks d-none">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker5">Edit
-                                             Status</label>
+                                          class=" btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
+                                          <input type="date" id="datepicker5" placeholder="Enter Date"
+                                             value="Enter Date" required onchange="pasteDate(5,this.value)"
+                                             class="datepicks">
+                                          Edit
+                                          Status</label>
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseFive" aria-expanded="false"
-                                       aria-controls="flush-collapseFive" onclick="this.firstElementChild.classList.toggle('iconRotatedRev')">
+                                       aria-controls="flush-collapseFive"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotatedRev')">
                                        <i class="fa fa-angle-down text-white fa-2x row-icon " id="dropperIcon5"></i>
                                     </div>
                                  </div>
@@ -1385,7 +1391,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker6" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(6,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(6,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker6">Edit
                                              Status</label>
                                        </button>
@@ -1394,7 +1400,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseSix" aria-expanded="false"
-                                       aria-controls="flush-collapseSix" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseSix"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon6"></i>
                                     </div>
                                  </div>
@@ -1596,7 +1603,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker7" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(7,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(7,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker7">Edit
                                              Status</label>
                                        </button>
@@ -1605,7 +1612,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseSeven" aria-expanded="false"
-                                       aria-controls="flush-collapseSeven" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseSeven"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon7"></i>
                                     </div>
                                  </div>
@@ -1812,7 +1820,7 @@
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
                                           <input type="date" id="datepicker8" required placeholder="DD/MM/YYYY"
-                                             onchange="pasteDate(8,this.value)" class="datepicks d-none">
+                                             onchange="pasteDate(8,this.value)" class="datepicks">
                                           <label class="d-block w-100 text-center py-0 my-0" for="datepicker8">Edit
                                              Status</label>
                                        </button>
@@ -1821,7 +1829,8 @@
                                     </div>
                                     <div class="dropIconBig mx-3" data-mdb-toggle="collapse"
                                        data-mdb-target="#flush-collapseEight" aria-expanded="false"
-                                       aria-controls="flush-collapseEight" onclick="this.firstElementChild.classList.toggle('iconRotated')">
+                                       aria-controls="flush-collapseEight"
+                                       onclick="this.firstElementChild.classList.toggle('iconRotated')">
                                        <i class="fa fa-angle-right text-white fa-2x row-icon" id="dropperIcon8"></i>
                                     </div>
                                  </div>
@@ -2014,12 +2023,12 @@
          </div>
          <div id="tabDesc3" class="tabDescDiv">
             <h3>Age between 5-8 Week</h3>
-            
+
 
          </div>
          <div id="tabDesc4" class="tabDescDiv">
             <h3>Age between 9-12 Week</h3>
-            
+
          </div>
          <div id="tabDesc5" class="tabDescDiv">
             <h1>Tab Content 5</h1>
@@ -2645,6 +2654,31 @@
    <script type="text/javascript" src="js/bootstap-bundle.js"></script>
    <script type="text/javascript" src="js/popper.js"></script>
    <script type="text/javascript" src="js/script.js"></script>
+   <script src='https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js'></script>
+   <script type="text/javascript">
+      /* Bootstrap 5 JS included */
+      /* vanillajs-datepicker 1.1.4 JS included */
+
+      const getDatePickerTitle = elem => {
+         // From the label or the aria-label
+         const label = elem.nextElementSibling;
+         let titleText = '';
+         if (label && label.tagName === 'LABEL') {
+            titleText = label.textContent;
+         } else {
+            titleText = elem.getAttribute('aria-label') || '';
+         }
+         return titleText;
+      }
+
+      const elems = document.querySelectorAll('.datepicker_input');
+      for (const elem of elems) {
+         const datepicker = new Datepicker(elem, {
+            'format': 'dd/mm/yyyy', // UK format
+            title: getDatePickerTitle(elem)
+         });
+      }
+   </script>
    <script type="text/javascript">
       $('.slider-badge').slick({
          dots: false,

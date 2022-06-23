@@ -3688,11 +3688,14 @@ header {
 }
 
 .iconRotated {
-  rotate: 90deg;
+  transform:rotate(90deg);
 }
 
 .datepicks {
-  opacity: 0;
+  background-color: var(--pink-color);
+  color: white !important;
+  border: 0;
+  max-width: 18px;
 }
 
 .content p {
@@ -3760,12 +3763,19 @@ header {
   margin: 0px 10px;
 }
 
+.takenSpan{
+  font-size: 13px;
+}
+
 @media screen and (max-width:768px) {
 
   .accordion-header>*,
   span {
     font-size: 5px;
     padding: 0px;
+  }
+  .datepicks{
+    max-width: 13px !important;
   }
 
   .takenSpan {
@@ -3880,7 +3890,7 @@ button {
 }
 
 .iconRotatedRev{
-  rotate: -90deg;
+  transform:rotate(-90deg)
 }
 .card-head{
   width: 60% ;
