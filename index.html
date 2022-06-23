@@ -25,6 +25,20 @@
    <link href="css/global.css" rel="stylesheet">
    <link href="css/navbar.css" rel="stylesheet">
    <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+   <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+   <script>
+      $(function () {
+         $('.datepicks').datepicker({
+            format: 'mm-dd-yyyy'
+         });
+      });
+   </script>
 </head>
 
 <body>
@@ -288,10 +302,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker1" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker1" required
                                              onchange="pasteDate(1,this.value)" class=" datepicks ">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker1">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -500,12 +513,12 @@
                                        </div>
                                     </div>
                                     <div class="card-btn d-flex">
+
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker2" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker2" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(2,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker2">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -714,10 +727,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker3" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker3" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(3,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker3">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -931,10 +943,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker4" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker4" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(4,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker4">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -1172,14 +1183,14 @@
                                           Taken on<br>04/05/2022
                                        </div>
                                     </div>
+                                    </script>
                                     <div class="card-btn d-flex">
                                        <button
                                           class=" btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker5" placeholder="Enter Date"
-                                             value="Enter Date" required onchange="pasteDate(5,this.value)"
-                                             class="datepicks">
+                                          <input type="text" id="datepicker5" required
+                                             onchange="pasteDate(5,this.value)" class="datepicks">
                                           Edit
-                                          Status</label>
+                                          Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -1390,10 +1401,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker6" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker6" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(6,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker6">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -1602,10 +1612,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker7" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker7" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(7,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker7">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -1819,10 +1828,9 @@
                                     <div class="card-btn d-flex">
                                        <button
                                           class="btn btn-light mx-2 text-pink py-1 px-2 shadow-1 d-flex align-items-center">
-                                          <input type="date" id="datepicker8" required placeholder="DD/MM/YYYY"
+                                          <input type="text" id="datepicker8" required placeholder="DD/MM/YYYY"
                                              onchange="pasteDate(8,this.value)" class="datepicks">
-                                          <label class="d-block w-100 text-center py-0 my-0" for="datepicker8">Edit
-                                             Status</label>
+                                          Edit Status
                                        </button>
                                        <button class="btn btn-light text-pink py-1 px-2 shadow-1">Get vaccine at
                                           Home</button>
@@ -2647,7 +2655,7 @@
 
 
 
-   <script type="text/javascript" src="js/jquery.js"></script>
+   <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
    <script type="text/javascript" src="js/mdb.min.js"></script>
    <script type="text/javascript" src="js/slick.min.js"></script>
    <script type="text/javascript" src="js/Wow.js"></script>
@@ -2655,30 +2663,7 @@
    <script type="text/javascript" src="js/popper.js"></script>
    <script type="text/javascript" src="js/script.js"></script>
    <script src='https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js'></script>
-   <script type="text/javascript">
-      /* Bootstrap 5 JS included */
-      /* vanillajs-datepicker 1.1.4 JS included */
 
-      const getDatePickerTitle = elem => {
-         // From the label or the aria-label
-         const label = elem.nextElementSibling;
-         let titleText = '';
-         if (label && label.tagName === 'LABEL') {
-            titleText = label.textContent;
-         } else {
-            titleText = elem.getAttribute('aria-label') || '';
-         }
-         return titleText;
-      }
-
-      const elems = document.querySelectorAll('.datepicker_input');
-      for (const elem of elems) {
-         const datepicker = new Datepicker(elem, {
-            'format': 'dd/mm/yyyy', // UK format
-            title: getDatePickerTitle(elem)
-         });
-      }
-   </script>
    <script type="text/javascript">
       $('.slider-badge').slick({
          dots: false,
@@ -2730,14 +2715,6 @@
       });
    </script>
 
-   <script>
-      var selector = '.item li';
-
-      $(selector).on('click', function () {
-         $(selector).removeClass('active');
-         $(this).addClass('active');
-      });
-   </script>
 
 
 

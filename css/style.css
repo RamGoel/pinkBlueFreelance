@@ -3692,10 +3692,10 @@ header {
 }
 
 .datepicks {
-  background-color: var(--pink-color);
-  color: white !important;
-  border: 0;
-  max-width: 18px;
+  /* background-color: var(--pink-color); */
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
 }
 
 .content p {
@@ -3773,9 +3773,6 @@ header {
   span {
     font-size: 5px;
     padding: 0px;
-  }
-  .datepicks{
-    max-width: 13px !important;
   }
 
   .takenSpan {
