@@ -12,33 +12,24 @@
    <meta name="rating" content="general">
    <meta name="copyright" content="Company Name">
    <title>Pink & Blue</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <link rel="stylesheet" href="css/mdb.min.css" />
-   <link rel="stylesheet" type="text/css" href="css/slick.css">
-   <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/slick.css" />
+   <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
    <script src="js/index.js"></script>
    <meta property="og:title" content="Company Name" />
    <meta property="og:type" content="website" />
-   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-   <link rel="stylesheet" href="css/bootsrap.css">
-   <link href="css/global.css" rel="stylesheet">
-   <link href="css/navbar.css" rel="stylesheet">
-   <link href="css/style.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      crossorigin="anonymous">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+   <link rel="stylesheet" href="css/bootsrap.css" />
+   <link href="css/global.css" rel="stylesheet" />
+   <link href="css/navbar.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
    <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
 
-   <script>
-      $(function () {
-         $('.datepicks').datepicker({
-            format: 'mm-dd-yyyy'
-         });
-      });
-   </script>
+
 </head>
 
 <body>
@@ -2655,16 +2646,17 @@
 
 
 
-   <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+   <script type="text/javascript" src="js/popper.js"></script>
    <script type="text/javascript" src="js/mdb.min.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
    <script type="text/javascript" src="js/slick.min.js"></script>
    <script type="text/javascript" src="js/Wow.js"></script>
-   <script type="text/javascript" src="js/bootstap-bundle.js"></script>
-   <script type="text/javascript" src="js/popper.js"></script>
-   <script type="text/javascript" src="js/script.js"></script>
-   <script src='https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js'></script>
 
    <script type="text/javascript">
+
+      $('.datepicks').datepicker()
+
+
       $('.slider-badge').slick({
          dots: false,
          infinite: false,
@@ -2714,7 +2706,6 @@
          ]
       });
    </script>
-
 
 
 
