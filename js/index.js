@@ -1,14 +1,4 @@
 
-
-function rotateIcon(num,count){
-    if(count==1){
-
-        document.getElementById(`dropperIcon${num}`).classList.toggle('iconRotatedRev')
-    }else{
-        document.getElementById(`dropperIcon${num}`).classList.toggle('iconRotated')
-    }
-}
-
 function pasteDate(num,value){
     document.getElementById(`taken${num}`).lastElementChild.innerHTML=`Taken on<br>${value}`
     document.getElementById(`taken${num}`).classList.remove('opacity-0')
